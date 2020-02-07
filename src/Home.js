@@ -5,9 +5,7 @@ function Home() {
   return (
     <div className="home">
       <header className="home-header">
-        <p>
-          Hi, I'm Andrew Ryno
-        </p>
+        <p>Hi, I'm Andrew Ryno</p>
       </header>
     </div>
   );
