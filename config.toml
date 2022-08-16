@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "Hello, I'm Andrew Ryno"
 theme = 'hello-friend-ng'
 
+googleAnalytics = 'UA-6047955-7'
+
 [[params.social]]
     name = "twitter"
     url = "https://twitter.com/andrewryno"
