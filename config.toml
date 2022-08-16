@@ -1,0 +1,14 @@
+baseURL = 'https://andrewryno.com/'
+languageCode = 'en-us'
+title = "Hello, I'm Andrew Ryno"
+theme = 'hello-friend-ng'
+
+[[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/andrewryno"
+[[params.social]]
+    name = "github"
+    url = "https://github.com/andrewryno/"
+[[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/andrewryno/"
