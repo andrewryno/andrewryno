@@ -2,9 +2,10 @@
 export interface Props {
 	title: string;
 	description: string;
+	canonical: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, canonical } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ const { title, description } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="canonical" href={"https://andrewryno.com" + canonical} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
 	</head>
