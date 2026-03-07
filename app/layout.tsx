@@ -7,11 +7,7 @@ export const metadata: Metadata = {
     "Andrew is a software engineer at ngrok, where he works on the Gateway team. Previously worked at Twilio and Levers.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
